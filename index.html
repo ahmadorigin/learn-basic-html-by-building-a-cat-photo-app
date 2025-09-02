@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto Kucing Lucu</title>
+</head>
+<body>
+    <!-- Konten akan di tempatkan di sini -->
+
+<header> 
+    <h1>Galeri Kucing Lucu</h1>
+    <p>Kumpulan foto-foto kucing menggemaskan dari seluruh dunia</p>
+</header>
+
+<main>
+    <!-- Semua konten utama ada di sini -->
+</main>
+
+<section>
+    <h2>Foto kucing Hari Ini</h2>
+    <img
+      src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_640.jpg"
+      alt="Kucing Persia berwarna putih sedang duduk"
+      width="300"
+    />
+ 
+<p>ini adalah <strong>Mochi</strong>, kucing persia berusia berusia 2 tahun</p>
+</section>
+
+<section>
+    <h2>Jenis-Jenis Kucing</h2>
+    <ul>
+        <li>kucing Persia</li>
+        <li>Kucing Anggora</li>
+        <li>Kucing Siam</li>
+        <li>Kucing Bengal</li>
+        <li>Kucing Domestik</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Kirim foto Kucingmu</h2>
+  <form>
+    <fieldset>
+        <legend>Informasi Kucing</legend>
+
+    <!-- Input teks untuk nama -->
+        <label for="cat-name">Nama Kucing:</label>
+        <input type="text" id="cat-name" name="cat-name" required />
+        <br><br>
+        
+    <!-- Input angka untuk umur -->
+        <label for="cat-age">Umur (tahun):</label>
+        <input type="number" id="cat-age" name="cat-age" min="0" max="30" />
+        <br><br>
+
+    <!-- Radio button untuk jenis kelamin  -->
+        <label>Jenis kelamin:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Jantan</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Betina</label>
+        <br><br>
+    
+    <!-- Dropdown untuk jenis kucing -->
+        <label for="cat-type">Jenis Kucing:</label>
+        <select id="cat-type" name="cat-type">
+            <option value="persian">Persia</option>
+            <option value="angora">Anggora</option>
+            <option value="siamese">Siam</option>
+            <option value="domestic">Domestik</option>
+            <option value="other">Lainnya</option>
+        </select>
+        <br><br>
+
+    <!-- Input file untuk upload foto -->
+        <label for="cat-photo">Unggah Foto:</label>
+        <input type="file" 
+               id="cat-photo" 
+               name="cat-photo" 
+               accept="image/*" 
+        />
+      </fieldset>
+      <br>
+
+      <button type="submit">Kirim Foto</button>
+     </form>
+</section>
+
+<section>
+    <h2>Fakta Menarik Tentang Kucing</h2>
+    <blockquote>
+        "Kucing memiliki 230 tulang dalam tubuhnya, lebih banyak 24 tulang daripada manusia."
+        <cite>- National geographic</cite>
+    </blockquote>
+</section>
+
+<footer>
+    <p>&copy; 2023 Galeri Kucing Lucu</p>
+    <p>
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Syarat & Ketentuan</a>
+        <a href="#">Kontak Kami</a>
+    </p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+<!-- SABAR SABAR SABAR SABAR SABAR -->
